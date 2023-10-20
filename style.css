@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+header
+.top-text {
+    background-image: url(../img/top-gazou1.webp);
+    text-align: center;
+}
+.top-text h1 {
+    color: wheat; 
+}
+.top-div {
+    color: wheat;
+}
+
+main 
+.recipe-h2 {
+    margin: 20px 0px 20px 0px;
+    border-bottom: 3px solid yellowgreen;
+    padding: 0px 0px 2px 0px;
+}
+.recipe-item {
+    display: flex;
+    padding: 10px 10px;
+}
+.recipe-img {
+    float: left;
+    flex: 1px 1px auto;
+}
+.recipe-text {
+    flex: 0px 1px auto;
+}
+.menu {
+    float: right;
+    padding-left: 50px;
+}
+.menu h3 {
+    background-color: greenyellow;
+}
+
+
+footer
+.recipe-content {
+    background-repeat: repeat;
+}
+
+.copyright {
+    
+    background-color: brown;
+    text-align: center;
+    color: wheat;
+}
